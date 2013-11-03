@@ -64,5 +64,5 @@ Coming...
 == Changelog ==
 
 = 1.0 =
-New: 
-* Enhanced Media Library initial release.
+
+* New: Enhanced Media Library initial release.
