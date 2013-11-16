@@ -3,7 +3,7 @@
 Plugin Name: Enhanced Media Library
 Plugin URI: http://wordpressuxsolutions.com
 Description: Better management for WordPress Media Library.
-Version: 1.0.1
+Version: 1.0.2
 Author: WordPress UX Solutions
 Author URI: http://wordpressuxsolutions.com
 License: GPLv2 or later
@@ -31,7 +31,7 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 
 
 
-$wpuxss_eml_version = '1.0.1';
+$wpuxss_eml_version = '1.0.2';
 $wpuxss_eml_old_version = get_option('wpuxss_eml_version', false);
 $wpuxss_eml_dir = plugin_dir_url( __FILE__ );
 
