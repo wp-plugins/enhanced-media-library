@@ -3,13 +3,13 @@ Contributors: webbistro
 Tags: media library, taxonomy, taxonomies, mime, mime type, attachment, media category, media categories, media tag, media tags, media taxonomy, media taxonomies, media filter, media organizer, file types, media types, media uploader, custom, media management, attachment management, files management, ux, user experience, wp-admin, admin
 Requires at least: 3.5
 Tested up to: 3.7.1
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 
 
-Better management for WordPress Media Library
+A better management for WordPress Media Library
 
 
 
@@ -78,6 +78,10 @@ New features and improvements coming...
 
 
 == Changelog ==
+
+= 1.0.2 =
+
+* Fix: Assigned non-media taxonomies archive page fixed: [Support Request](http://wordpress.org/support/topic/plugin-woocommerce-products-stopped-displaying)
 
 = 1.0.1 =
 
