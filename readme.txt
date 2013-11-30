@@ -3,7 +3,7 @@ Contributors: webbistro
 Tags: media library, taxonomy, taxonomies, mime, mime type, attachment, media category, media categories, media tag, media tags, media taxonomy, media taxonomies, media filter, media organizer, file types, media types, media uploader, custom, media management, attachment management, files management, ux, user experience, wp-admin, admin
 Requires at least: 3.5
 Tested up to: 3.7.1
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -78,6 +78,12 @@ New features and improvements coming...
 
 
 == Changelog ==
+
+= 1.0.3 =
+
+* Update: Better term sorting in Media Uploader
+* Update: Minor code improvements
+* Fix: Fixed the bug with sorting of post categories and tags assigned to Media Library
 
 = 1.0.2 =
 
