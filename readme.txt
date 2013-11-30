@@ -83,7 +83,7 @@ New features and improvements coming...
 
 * Update: Better term sorting in Media Uploader
 * Update: Minor code improvements
-* Fix: Fixed the bug with sorting of post categories and tags assigned to Media Library
+* Fixed: The bug with sorting of post categories and tags assigned to Media Library
 
 = 1.0.2 =
 
