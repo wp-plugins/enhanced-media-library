@@ -80,20 +80,19 @@ New features and improvements coming...
 == Changelog ==
 
 = 1.0.5 =
-* Fixed: bug with disappearing filter in Media Uploader [Support Request](https://wordpress.org/support/topic/any-chance-of-adding-a-drop-down-in-the-insert-media-screen)
-
 * Fixed: Added WP 3.9 compatibility [Support Request](https://wordpress.org/support/topic/great-plugin-but-breaks-the-new-add-media-in-39)
+* Fixed: Bug with disappearing filter in Media Uploader [Support Request](https://wordpress.org/support/topic/any-chance-of-adding-a-drop-down-in-the-insert-media-screen)
 
 = 1.0.4 =
 
 * Fixed: Filter mechanism in Media Library [Support Request](http://wordpress.org/support/topic/filter-in-media-not-working-properly)
-* Fixed: The bug with saving of assigned post categories and tags in Media Uploader
+* Fixed: Bug with saving of assigned post categories and tags in Media Uploader
 
 = 1.0.3 =
 
 * Update: Better term sorting in Media Uploader
 * Update: Minor code improvements
-* Fixed: The bug with sorting of post categories and tags assigned to Media Library
+* Fixed: Bug with sorting of post categories and tags assigned to Media Library
 
 = 1.0.2 =
 
