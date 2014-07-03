@@ -110,7 +110,6 @@ operation [Support Request](https://wordpress.org/support/topic/instability-in-t
 = 1.0.3 =
 
 * Improvements
-
 	* Better term sorting in Media Uploader
 	* Minor code improvements
 	
