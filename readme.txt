@@ -82,15 +82,14 @@ New features and improvements coming...
 = 1.1 =
 
 * Improvements
-	* Filters added to /wp-admin/customize.php page [Support Request](https://wordpress.org/support/topic/missing-category-filter-on-media-select-window)	
-	* Reconsidered the mechanism of checkboxes' checking in Media Uploader for more stable 	
-operation [Support Request](https://wordpress.org/support/topic/instability-in-the-media-insertion-panel)
+	* Filters added to /wp-admin/customize.php page [Support Request](https://wordpress.org/support/topic/missing-category-filter-on-media-select-window)
+	* Reconsidered the mechanism of checkboxes' checking in Media Uploader for more stable operation [Support Request](https://wordpress.org/support/topic/instability-in-the-media-insertion-panel)
 	* Media Uploader filters now work without page refreshing when you change category for you images
 
 * Bugfixes
 	* Fixed "Uploads not showing" issue [Support Request](http://wordpress.org/support/topic/uploads-not-showing)
 	* Reconsidered CSS for filters area [Support Request](http://wordpress.org/support/topic/missing-search-box)
-	* Fixed CSS and JS files wrong path definitions [Support Request](http://wordpress.org/support/topic/little-bug-2)	
+	* Fixed CSS and JS files wrong path definitions [Support Request](http://wordpress.org/support/topic/little-bug-2)
 
 
 = 1.0.5 =
@@ -110,10 +109,9 @@ operation [Support Request](https://wordpress.org/support/topic/instability-in-t
 = 1.0.3 =
 
 * Improvements
-
 	* Better term sorting in Media Uploader
 	* Minor code improvements
-	
+
 * Bugfixes
 	* Fixed the bug with sorting of post categories and tags assigned to Media Library
 
