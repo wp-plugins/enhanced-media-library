@@ -89,7 +89,7 @@ operation [Support Request](https://wordpress.org/support/topic/instability-in-t
 
 * Bugfixes
 	* Fixed "Uploads not showing" issue [Support Request](http://wordpress.org/support/topic/uploads-not-showing)
-	* Reconsidered CSS for filters area [Support Request] (http://wordpress.org/support/topic/missing-search-box)
+	* Reconsidered CSS for filters area [Support Request](http://wordpress.org/support/topic/missing-search-box)
 	* Fixed CSS and JS files wrong path definitions [Support Request](http://wordpress.org/support/topic/little-bug-2)	
 
 
