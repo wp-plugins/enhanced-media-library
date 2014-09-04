@@ -94,13 +94,13 @@ If you believe that a third-party plugin shoud have filters in its Media Popup p
 == Changelog ==
 
 
-= 1.1.2 =
+= _______ 1.1.2 _______ =
 
 = Improvements =
 * Wordpress 4.0 compatibility ensured
 
 
-= 1.1.1 =
+= _______ 1.1.1 _______ =
 
 = Improvements =
 * Filters added for Appearance -> Header and Appearance -> Background [Support Request](https://wordpress.org/support/topic/missing-category-filter-on-media-select-window)
@@ -110,7 +110,7 @@ If you believe that a third-party plugin shoud have filters in its Media Popup p
 * Fixed EML 1.1 bug with disappearing scrollbar [Support Request](http://wordpress.org/support/topic/scroll-bar-disappeared-in-media-window)
 
 
-= 1.1 =
+= _______ 1.1 _______ =
 
 = Improvements =
 * Filters added to /wp-admin/customize.php page [Support Request](https://wordpress.org/support/topic/missing-category-filter-on-media-select-window)
@@ -123,21 +123,21 @@ If you believe that a third-party plugin shoud have filters in its Media Popup p
 * Fixed CSS and JS files wrong path definitions [Support Request](http://wordpress.org/support/topic/little-bug-2)
 
 
-= 1.0.5 =
+= _______ 1.0.5 _______ =
 
 = Bugfixes =
 * Fixed disappearing filter in Media Uploader [Support Request](https://wordpress.org/support/topic/any-chance-of-adding-a-drop-down-in-the-insert-media-screen)
 * Added WP 3.9 compatibility [Support Request](https://wordpress.org/support/topic/great-plugin-but-breaks-the-new-add-media-in-39)
 
 
-= 1.0.4 =
+= _______ 1.0.4 _______ =
 
 = Bugfixes =
 * Fixed filter mechanism in Media Library [Support Request](http://wordpress.org/support/topic/filter-in-media-not-working-properly)
 * Fixed the bug with saving of assigned post categories and tags in Media Uploader
 
 
-= 1.0.3 =
+= _______ 1.0.3 _______ =
 
 = Improvements =
 * Better term sorting in Media Uploader
@@ -147,20 +147,20 @@ If you believe that a third-party plugin shoud have filters in its Media Popup p
 * Fixed the bug with sorting of post categories and tags assigned to Media Library
 
 
-= 1.0.2 =
+= _______ 1.0.2 _______ =
 
 = Bugfixes =
 * Fixed assigned non-media taxonomies archive page [Support Request](http://wordpress.org/support/topic/plugin-woocommerce-products-stopped-displaying)
 
 
-= 1.0.1 =
+= _______ 1.0.1 _______ =
 
 = Bugfixes =
 * Media Uploader filter now shows nested terms.
 * Media Uploader filter now works correctly with multiple taxonomies.
 
 
-= 1.0 =
+= _______ 1.0 _______ =
 
 = New =
 * Enhanced Media Library initial release.
