@@ -100,6 +100,7 @@ If you believe that a third-party plugin shoud have filters in its Media Popup p
 * Wordpress 4.0 compatibility ensured
 
 
+
 = 1.1.1 =
 
 = Improvements =
@@ -110,57 +111,64 @@ If you believe that a third-party plugin shoud have filters in its Media Popup p
 * Fixed EML 1.1 bug with disappearing scrollbar [Support Request](http://wordpress.org/support/topic/scroll-bar-disappeared-in-media-window)
 
 
+
 = 1.1 =
 
-**Improvements**
+= Improvements =
 * Filters added to /wp-admin/customize.php page [Support Request](https://wordpress.org/support/topic/missing-category-filter-on-media-select-window)
 * Reconsidered the mechanism of checkboxes' checking in Media Uploader for more stable operation [Support Request](https://wordpress.org/support/topic/instability-in-the-media-insertion-panel)
 * Media Uploader filters now work without page refreshing when you change category for you images
 
-**Bugfixes**
+= Bugfixes =
 * Fixed "Uploads not showing" issue [Support Request](http://wordpress.org/support/topic/uploads-not-showing)
 * Reconsidered CSS for filters area [Support Request](http://wordpress.org/support/topic/missing-search-box)
 * Fixed CSS and JS files wrong path definitions [Support Request](http://wordpress.org/support/topic/little-bug-2)
 
 
+
 = 1.0.5 =
 
-**Bugfixes**
+= Bugfixes =
 * Fixed disappearing filter in Media Uploader [Support Request](https://wordpress.org/support/topic/any-chance-of-adding-a-drop-down-in-the-insert-media-screen)
 * Added WP 3.9 compatibility [Support Request](https://wordpress.org/support/topic/great-plugin-but-breaks-the-new-add-media-in-39)
 
 
+
 = 1.0.4 =
 
-**Bugfixes**
+= Bugfixes =
 * Fixed filter mechanism in Media Library [Support Request](http://wordpress.org/support/topic/filter-in-media-not-working-properly)
 * Fixed the bug with saving of assigned post categories and tags in Media Uploader
 
 
+
 = 1.0.3 =
 
-**Improvements**
+= Improvements =
 * Better term sorting in Media Uploader
 * Minor code improvements
 
-**Bugfixes**
+= Bugfixes =
 * Fixed the bug with sorting of post categories and tags assigned to Media Library
+
 
 
 = 1.0.2 =
 
-**Bugfixes**
+= Bugfixes =
 * Fixed assigned non-media taxonomies archive page [Support Request](http://wordpress.org/support/topic/plugin-woocommerce-products-stopped-displaying)
+
 
 
 = 1.0.1 =
 
-**Bugfixes**
+= Bugfixes =
 * Media Uploader filter now shows nested terms.
 * Media Uploader filter now works correctly with multiple taxonomies.
 
 
+
 = 1.0 =
 
-**New** 
+= New =
 * Enhanced Media Library initial release.
