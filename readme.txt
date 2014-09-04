@@ -96,8 +96,8 @@ If you believe that a third-party plugin shoud have filters in its Media Popup p
 
 = 1.1.2 =
 
-**Improvements**
-    * Wordpress 4.0 compatibility ensured
+= Improvements =
+* Wordpress 4.0 compatibility ensured
 
 
 = 1.1.1 =
