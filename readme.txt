@@ -2,8 +2,8 @@
 Contributors: webbistro
 Tags: media library, taxonomy, taxonomies, mime, mime type, attachment, media category, media categories, media tag, media tags, media taxonomy, media taxonomies, media filter, media organizer, file types, media types, media uploader, custom, media management, attachment management, files management, ux, user experience, wp-admin, admin
 Requires at least: 3.5
-Tested up to: 3.9.1
-Stable tag: 1.1.1
+Tested up to: 4.0
+Stable tag: 1.1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -55,6 +55,20 @@ New features and improvements coming...
 
 
 
+== Frequently Asked Questions ==
+
+= Why my custom media taxonomy's page is 404? =
+
+Try to just re-save permalinks settings. Go to Settings -> Permalinks and push "Save Changes" button.
+
+= Why Media Popup of some themes/plugins does not show taxonomy filters? =
+
+EML adds its filters to **any** media popup that already contains native WordPress filters. We chose NOT to force adding filters to ANY media popup because there are a lot of cases when filters are not acceptable and theme's/plugin's author did not add them intentionally.
+
+If you believe that a third-party plugin shoud have filters in its Media Popup please contact its author with a request to add **native** WordPress filters ([example of the code](http://wordpress.org/support/topic/how-can-we-use-this-plugin-features-in-my-custom-plugin-media-uploader?replies=15#post-5753212) for theme's/plugin's authors).
+
+
+
 == Screenshots ==
 
 1. Enhanced Media Library Taxonomies Settings
@@ -78,6 +92,11 @@ New features and improvements coming...
 
 
 == Changelog ==
+
+
+= 1.1.2 =
+* **Improvements**
+    * Wordpress 4.0 compatibility ensured
 
 
 = 1.1.1 =
