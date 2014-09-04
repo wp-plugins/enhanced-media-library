@@ -94,14 +94,14 @@ If you believe that a third-party plugin shoud have filters in its Media Popup p
 == Changelog ==
 
 
-= 1.1.2 =
+== 1.1.2 ==
 
 = Improvements =
 * Wordpress 4.0 compatibility ensured
 
 
 
-= 1.1.1 =
+== 1.1.1 ==
 
 = Improvements =
 * Filters added for Appearance -> Header and Appearance -> Background [Support Request](https://wordpress.org/support/topic/missing-category-filter-on-media-select-window)
