@@ -94,7 +94,6 @@ If you believe that a third-party plugin shoud have filters in its Media Popup p
 == Changelog ==
 
 
-&nbsp;
 = 1.1.2 =
 
 = Improvements =
@@ -143,7 +142,7 @@ If you believe that a third-party plugin shoud have filters in its Media Popup p
 
 
 &nbsp;
-=1.0.3 =
+= 1.0.3 =
 
 = Improvements =
 * Better term sorting in Media Uploader
