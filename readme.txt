@@ -1,7 +1,7 @@
-=== Enhanced Media Library ===
+=== Enhanced Media Library PRO ===
 Contributors: webbistro
 Tags: media library, taxonomy, taxonomies, mime, mime type, attachment, media category, media categories, media tag, media tags, media taxonomy, media taxonomies, media filter, media organizer, file types, media types, media uploader, custom, media management, attachment management, files management, ux, user experience, wp-admin, admin
-Requires at least: 3.5
+Requires at least: 4.0
 Tested up to: 4.0
 Stable tag: 2.0
 License: GPLv2 or later
@@ -120,7 +120,7 @@ Right now it is possible via WP_Query ([example of the code](http://wordpress.or
 = Improvements =
 * Media Popup: Filters reset automatically as soon as new media files upload process started
 * Media Popup: Selection resets automatically as soon as filter is changed
-* Media Popup: WordPress 4.0 date filter has added  
+* Media Popup: WordPress 4.0 date filter added  
 * Compatibility: general compatibility with other plugins improved, please [let me know](http://wordpressuxsolutions.com/support/create-new-ticket/) if you have any issue with EML and other plugins
 
 = Bugfixes =
