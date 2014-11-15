@@ -1,10 +1,10 @@
-# Copyright (C) 2014 Enhanced Media Library PRO
-# This file is distributed under the same license as the Enhanced Media Library PRO package.
+# Copyright (C) 2014 Enhanced Media Library
+# This file is distributed under the same license as the Enhanced Media Library package.
 msgid ""
 msgstr ""
-"Project-Id-Version: Enhanced Media Library PRO 2.0.RC4\n"
+"Project-Id-Version: Enhanced Media Library 2.0\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/enhanced-media-library\n"
-"POT-Creation-Date: 2014-11-15 14:24:43+00:00\n"
+"POT-Creation-Date: 2014-11-15 16:36:14+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -32,7 +32,7 @@ msgstr ""
 msgid "Edit"
 msgstr ""
 
-#: core/options-pages.php:107 pro/enhanced-media-library-pro.php:133
+#: core/options-pages.php:107
 msgid "Close"
 msgstr ""
 
@@ -114,7 +114,6 @@ msgid "Duplicate extensions or MIME types. Please chose other one."
 msgstr ""
 
 #: core/options-pages.php:150 core/options-pages.php:418
-#: pro/core/options-pages.php:132 pro/core/options-pages.php:202
 msgid "You do not have sufficient permissions to access this page."
 msgstr ""
 
@@ -248,161 +247,8 @@ msgstr ""
 msgid "Restore default MIME Types"
 msgstr ""
 
-#: pro/core/bulk-edit.php:75
-msgid "Remove"
-msgstr ""
-
-#: pro/core/bulk-edit.php:79
-msgid "Deselect"
-msgstr ""
-
-#: pro/core/bulk-edit.php:86
-msgid "Caption this image&hellip;"
-msgstr ""
-
-#: pro/core/bulk-edit.php:90
-msgid "Describe this video&hellip;"
-msgstr ""
-
-#: pro/core/bulk-edit.php:92
-msgid "Describe this audio file&hellip;"
-msgstr ""
-
-#: pro/core/bulk-edit.php:94
-msgid "Describe this media file&hellip;"
-msgstr ""
-
-#: pro/core/bulk-edit.php:103
-msgid "Attachments Details"
-msgstr ""
-
-#: pro/core/bulk-edit.php:155
-msgid "Select All"
-msgstr ""
-
-#: pro/core/bulk-edit.php:157
-msgid "Edit Selection"
-msgstr ""
-
-#: pro/core/bulk-edit.php:160
-msgid "Deselect All"
-msgstr ""
-
-#: pro/core/bulk-edit.php:164
-msgid "Delete Selected"
-msgstr ""
-
-#: pro/core/options-pages.php:101 pro/core/options-pages.php:102
-#: pro/core/options-pages.php:137 pro/enhanced-media-library-pro.php:135
-msgid "Bulk Edit"
-msgstr ""
-
-#: pro/core/options-pages.php:109 pro/core/options-pages.php:110
-msgid "EML Updates"
-msgstr ""
-
-#: pro/core/options-pages.php:154 pro/core/options-pages.php:157
-msgid "Turn off 'Save Changes' button"
-msgstr ""
-
-#: pro/core/options-pages.php:158
-msgid "Save changes on the fly"
-msgstr ""
-
-#: pro/core/options-pages.php:159
-msgid ""
-"Any click on a taxonomy checkbox during media files bulk edition will lead "
-"to an <strong style=\"color:red\">immediate saving</strong> of the data. "
-"Please, be careful! You have much greater chance to <strong style=\"color:red"
-"\">accidentally perform wrong re-assigning</strong> of a lot of your media "
-"files / taxonomies with this option turned on."
-msgstr ""
-
-#: pro/core/options-pages.php:160
-msgid ""
-"Strongly NOT recommended option if you work with more than hundred of files "
-"at a time."
-msgstr ""
-
-#: pro/core/options-pages.php:207
-msgid "Updates"
-msgstr ""
-
-#: pro/core/options-pages.php:222
-msgid "Enhanced Media Library PRO License"
-msgstr ""
-
-#: pro/core/options-pages.php:247
-msgid ""
-"To unlock updates, please enter your license key below. You can see your "
-"license key in <a href=\"http://wordpressuxsolutions.com/account/\">Your "
-"Account</a>. If you don&#8217;t have a licence key, your are welcome to <a href="
-"\"http://wordpressuxsolutions.com/pricing/\">purchase it</a>."
-msgstr ""
-
-#: pro/core/options-pages.php:251
-msgid "License Key"
-msgstr ""
-
-#: pro/core/options-pages.php:258
-msgid "Activate License"
-msgstr ""
-
-#: pro/core/options-pages.php:275
-msgid "Your license is active!"
-msgstr ""
-
-#: pro/core/update.php:109 pro/core/update.php:114 pro/core/update.php:118
-msgid ""
-"An unexpected error occurred. Something may be wrong with WordPress.org or "
-"this server&#8217;s configuration. If you continue to have problems, please "
-"try the <a href=\"https://wordpress.org/support/\">support forums</a>."
-msgstr ""
-
-#: pro/core/update.php:109
-msgid ""
-"(WordPress could not establish a secure connection to WordPress.org. Please "
-"contact your server administrator.)"
-msgstr ""
-
-#: pro/core/update.php:184
-msgid ""
-"To unlock updates, please enter your license key on the <a href=\"%s"
-"\">Updates</a> page. You can see your license key in <a href=\"%s\">Your "
-"Account</a>. If you don&#8217;t have a licence key, your are welcome to <a href="
-"\"%s\">purchase it</a>."
-msgstr ""
-
-#: pro/enhanced-media-library-pro.php:127
-msgid "ALL files belong to this item"
-msgstr ""
-
-#: pro/enhanced-media-library-pro.php:128
-msgid "SOME files belong to this item"
-msgstr ""
-
-#: pro/enhanced-media-library-pro.php:129
-msgid "NO files belong to this item"
-msgstr ""
-
-#: pro/enhanced-media-library-pro.php:130
-msgid "Changes saved."
-msgstr ""
-
-#: pro/enhanced-media-library-pro.php:131
-msgid "Something went wrong."
-msgstr ""
-
-#: pro/enhanced-media-library-pro.php:132
-msgid "Save Changes"
-msgstr ""
-
-#: pro/enhanced-media-library-pro.php:134
-msgid "Edit Uploaded Files"
-msgstr ""
-
 #. Plugin Name of the plugin/theme
-msgid "Enhanced Media Library PRO"
+msgid "Enhanced Media Library"
 msgstr ""
 
 #. Description of the plugin/theme
