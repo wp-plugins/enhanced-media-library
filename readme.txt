@@ -1,9 +1,9 @@
 === Enhanced Media Library ===
 Contributors: webbistro
 Tags: media library, taxonomy, taxonomies, mime, mime type, attachment, media category, media categories, media tag, media tags, media taxonomy, media taxonomies, media filter, media organizer, file types, media types, media uploader, custom, media management, attachment management, files management, ux, user experience, wp-admin, admin
-Requires at least: 3.5
+Requires at least: 4.0
 Tested up to: 4.0
-Stable tag: 2.0
+Stable tag: 2.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -39,6 +39,7 @@ This plugin will be handy for those who need to manage a lot of media files.
 
 = Enhanced Media Library PRO =
 
+&nbsp;
 **Bulk Edit**
 
 * set/unset multiple taxonomies to multiple media files at a time:
@@ -51,9 +52,11 @@ This plugin will be handy for those who need to manage a lot of media files.
 [Learn more about Enhanced Media Library PRO &raquo;](http://wordpressuxsolutions.com/plugins/enhanced-media-library/)
 
 
-= Coming =
+= Useful Links =
 
-New features and improvements coming...
+* [Where to start? (The complete beginners guide)](http://wordpressuxsolutions.com/documents/enhanced-media-library/eml-where-to-start/)
+
+
 
 
 
@@ -81,7 +84,7 @@ EML adds its filters to ANY media popup that already contains native WordPress f
 
 If you believe that a third-party plugin shoud have filters in its Media Popup please contact its author with a request to add NATIVE WordPress filters ([example of the code](http://wordpress.org/support/topic/how-can-we-use-this-plugin-features-in-my-custom-plugin-media-uploader?replies=15#post-5753212) for theme's/plugin's authors).
 
-= How to show images per media category on front-end =
+= How to show images per media category a webpage =
 
 Right now it is possible via WP_Query ([example of the code](http://wordpress.org/support/topic/php-displaying-an-array-of-images-per-category-or-categories)). We are working on a gallery based on EML taxonomies. 
 
@@ -112,6 +115,14 @@ Right now it is possible via WP_Query ([example of the code](http://wordpress.or
 == Changelog ==
 
 
+= 2.0.1 =
+
+= Bugfixes =
+* Front-end: scripts conflict fixed, update if EML breaks your front-end features
+
+
+
+&nbsp;
 = 2.0 =
 
 = New =
