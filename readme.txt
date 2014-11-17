@@ -1,7 +1,7 @@
 === Enhanced Media Library ===
 Contributors: webbistro
 Tags: media library, taxonomy, taxonomies, mime, mime type, attachment, media category, media categories, media tag, media tags, media taxonomy, media taxonomies, media filter, media organizer, file types, media types, media uploader, custom, media management, attachment management, files management, ux, user experience, wp-admin, admin
-Requires at least: 4.0
+Requires at least: 3.5
 Tested up to: 4.0
 Stable tag: 2.0.1
 License: GPLv2 or later
