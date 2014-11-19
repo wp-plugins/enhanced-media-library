@@ -3,7 +3,7 @@ Contributors: webbistro
 Tags: media library, taxonomy, taxonomies, mime, mime type, attachment, media category, media categories, media tag, media tags, media taxonomy, media taxonomies, media filter, media organizer, file types, media types, media uploader, custom, media management, attachment management, files management, ux, user experience, wp-admin, admin
 Requires at least: 3.5
 Tested up to: 4.0
-Stable tag: 2.0.1
+Stable tag: 2.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -115,6 +115,15 @@ Right now it is possible via WP_Query ([example of the code](http://wordpress.or
 == Changelog ==
 
 
+= 2.0.2 =
+= Improvements =
+* Taxonomy Settings: you can now rewrite taxonomy slug and permalinks front base
+
+= Bugfixes =
+* PRO: fixed a bug preventing repeat saving categories with "Save Changes" button for same set of media files
+
+
+&nbsp;
 = 2.0.1 =
 
 = Bugfixes =
