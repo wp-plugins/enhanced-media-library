@@ -34,22 +34,23 @@ This plugin will be handy for those who need to manage a lot of media files.
 * create new MIME types (media file types),
 * delete any MIME type,
 * allow/disallow uploading for any MIME type,
-* filter media files by MIME types in Media Library / Media Uploader (for example, PDFs, Documents, V-Cards, etc),
+* filter media files by MIME types in Media Library / Media Popup (for example, PDFs, Documents, V-Cards, etc),
 * be in total control of the names of your MIME type filters
 
-= Enhanced Media Library PRO =
+> #### Enhanced Media Library PRO
 
-&nbsp;
-**Bulk Edit**
+> **Bulk Attachment for Media Taxonomies**
 
-* set/unset multiple taxonomies to multiple media files at a time:
-    * during uploading process
-    * in Media Popup during post/page editing
-    * in Media Library Grid View
-* select/deselect multiple media files with a single click
-* delete multiple media files right in media popup window 
+> The free version of Enhanced Media Library does not support media taxonomies bulk attachment.
 
-[Learn more about Enhanced Media Library PRO &raquo;](http://wordpressuxsolutions.com/plugins/enhanced-media-library/)
+> * set/unset multiple taxonomies to multiple media files at a time:
+>     * during uploading process
+>     * in Media Popup during post/page editing
+>     * in Media Library Grid View
+> * select/deselect multiple media files with a single click
+> * delete multiple media files right in media popup window 
+
+> [Learn more about Enhanced Media Library PRO &raquo;](http://wordpressuxsolutions.com/plugins/enhanced-media-library/)
 
 
 = Useful Links =
@@ -84,7 +85,7 @@ EML adds its filters to ANY media popup that already contains native WordPress f
 
 If you believe that a third-party plugin shoud have filters in its Media Popup please contact its author with a request to add NATIVE WordPress filters ([example of the code](http://wordpress.org/support/topic/how-can-we-use-this-plugin-features-in-my-custom-plugin-media-uploader?replies=15#post-5753212) for theme's/plugin's authors).
 
-= How to show images per media category a webpage =
+= How to show images per media category on a webpage =
 
 Right now it is possible via WP_Query ([example of the code](http://wordpress.org/support/topic/php-displaying-an-array-of-images-per-category-or-categories)). We are working on a gallery based on EML taxonomies. 
 
