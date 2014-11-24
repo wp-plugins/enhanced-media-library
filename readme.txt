@@ -39,9 +39,11 @@ This plugin will be handy for those who need to manage a lot of media files.
 
 > #### Enhanced Media Library PRO
 
-> **Bulk Attachment for Media Taxonomies**
-
 > The free version of Enhanced Media Library does not support media taxonomies bulk attachment.
+
+> The PRO version requires at least WordPress 4.0
+
+> **Bulk Attachment for Media Taxonomies**
 
 > * set/unset multiple taxonomies to multiple media files at a time:
 >     * during uploading process
