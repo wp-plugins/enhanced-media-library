@@ -1,6 +1,6 @@
 === Enhanced Media Library ===
 Contributors: webbistro
-Tags: media library, taxonomy, taxonomies, mime, mime type, attachment, media category, media categories, media tag, media tags, media taxonomy, media taxonomies, media filter, media organizer, file types, media types, media uploader, custom, media management, attachment management, files management, ux, user experience, wp-admin, admin
+Tags: media library, taxonomy, taxonomies, mime, mime type, attachment, media category, media categories, media tag, media tags, media taxonomy, media taxonomies, media filter, media organizer, file types, media types, media uploader, custom, media management, attachment management, files management, ux, user experience, wp-admin, admin, categories, category, filter,  image, images, media, upload
 Requires at least: 3.5
 Tested up to: 4.0.1
 Stable tag: 2.0.2.2
@@ -17,25 +17,24 @@ A better management for WordPress Media Library
 
 This plugin will be handy for those who need to manage a lot of media files.
 
-= Taxonomies =
+= Media Taxonomies (Categories for Media Files) =
 
 * create unlimited amount of media taxonomies (like categories and tags),
 * be in total control of your custom taxonomy parameters via admin,
 * edit and delete your custom media taxonomies,
 * assign existed taxonomies to Media Library (for example, you can use post categories as a taxonomy for your media files),
 * unassign any media taxonomy from Media Library via admin,
-* immediately set taxonomy term to any media file during upload via Media Uploader,
-* filter media files in Media Library by your custom taxonomies,
-* filter media files in Media Popup by your custom taxonomies,
-* have you attachment post type's archive page (front-end) working by default
+* immediately set categories to any media file during upload in Media Popup,
+* filter media files in Media Library / Media Popup by your custom categories,
+* get you media category archive page (front-end) working with EML activated
 
-= MIME Types =
+= MIME Types (Media File Types) =
 
-* create new MIME types (media file types),
+* create new MIME types (media file types, for example, PDFs, Documents, V-Cards, etc),
 * delete any MIME type,
-* allow/disallow uploading for any MIME type,
-* filter media files by MIME types in Media Library / Media Popup (for example, PDFs, Documents, V-Cards, etc),
-* be in total control of the names of your MIME type filters
+* allow/disallow uploading for any file type,
+* filter media files by file types in Media Library / Media Popup,
+* be in total control of the names of your file type filters
 
 > #### Enhanced Media Library PRO
 
@@ -54,6 +53,7 @@ This plugin will be handy for those who need to manage a lot of media files.
 
 * select/deselect all media files (within a category) with a single click
 * delete all media files (within a category) right in media popup window
+
 
 = Useful Links =
 
@@ -118,6 +118,12 @@ Right now it is possible via WP_Query ([example of the code](http://wordpress.or
 == Changelog ==
 
 
+= 2.0.2.3 (PRO only) =
+= Bugfixes =
+Fixed the bug with ACF < 5.0 compatibility
+
+
+&nbsp;
 = 2.0.2.2 =
 = Bugfixes =
 Minor JS bug of v2.0 fixed [Support Request](https://wordpress.org/support/topic/upload-hangs-2)
