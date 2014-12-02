@@ -95,23 +95,23 @@ Right now it is possible via WP_Query ([example of the code](http://wordpress.or
 
 == Screenshots ==
 
-1. Enhanced Media Library Taxonomies Settings
+1. Media Taxonomies Settings
 
-2. Taxonomies in Nav Menu
+2. MIME types manager
 
-3. Edit media taxonomies just like any others
+3. Create media categories just like any others
 
-4. Edit media taxonomies just like any others
+4. Use media categories in Nav Menu
 
-5. Taxonomy columns and filters, sorting by MIME types in Media Library
+5. Attach media categories to media files like to posts
 
-6. MIME type filter in Media Uploader
+6. Attach media categories to media files from Media Library grid view
 
-7. Taxonomy filter in Media Uploader
+7. Attach media categories to media files in Media Popup while editing posts and pages and filter media files by categories and file types
 
-8. Set taxonomy term right in Media Uploader
+8. Filter media files by categories and file types in Media Library list view
 
-9. MIME type manager
+9. Filter media files by categories and file types in Media Library grid view
 
 
 
