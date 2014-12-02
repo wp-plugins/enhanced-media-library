@@ -107,7 +107,7 @@ Right now it is possible via WP_Query ([example of the code](http://wordpress.or
 
 6. Attach media categories to media files from Media Library grid view
 
-7. Attach media categories to media files in Media Popup while editing posts and pages and filter media files by categories and file types
+7. Attach media categories to media files in Media Popup while editing posts and pages. Filter media files by categories and file types
 
 8. Filter media files by categories and file types in Media Library list view
 
