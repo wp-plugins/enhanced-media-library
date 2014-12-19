@@ -2,8 +2,8 @@
 Contributors: webbistro
 Tags: media library, taxonomy, taxonomies, mime, mime type, attachment, media category, media categories, media tag, media tags, media taxonomy, media taxonomies, media filter, media organizer, file types, media types, media uploader, custom, media management, attachment management, files management, ux, user experience, wp-admin, admin, categories, category, filter,  image, images, media, upload
 Requires at least: 3.5
-Tested up to: 4.0.1
-Stable tag: 2.0.2.2
+Tested up to: 4.1
+Stable tag: 2.0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -118,25 +118,45 @@ Right now it is possible via WP_Query ([example of the code](http://wordpress.or
 == Changelog ==
 
 
-= 2.0.2.3 (PRO only) =
+= 2.0.3 =
+
+= Improvements (PRO only) =
+* Bulk Edit added to the List View of Media Library
+* Bulk Edit Media Popup (for Media Library > List View and Media Library > Add New page) is now being opened with pre-selected multiple media files
+
+= Compatibility =
+* Wordpress 4.1 compatibility ensured
+* Improved compatibility with other plugins and custom taxonomies
+
 = Bugfixes =
-Fixed the bug with ACF < 5.0 compatibility
+* "PHP Fatal Error: Call to undefined function get_current_screen()" issue fixed
+* Minor bugs fixed
+
+
+&nbsp;
+= 2.0.2.3 (PRO only) =
+
+= Bugfixes =
+* Fixed the bug with ACF < 5.0 compatibility
 
 
 &nbsp;
 = 2.0.2.2 =
+
 = Bugfixes =
-Minor JS bug of v2.0 fixed [Support Request](https://wordpress.org/support/topic/upload-hangs-2)
+* Minor JS bug of v2.0 fixed [Support Request](https://wordpress.org/support/topic/upload-hangs-2)
 
 
 &nbsp;
 = 2.0.2.1 =
+
 = Bugfixes =
-Minor JS bug of v2.0.2 fixed
+* Minor JS bug of v2.0.2 fixed
 
 
 &nbsp;
 = 2.0.2 =
+
 = Improvements =
 * Taxonomy Settings: you can now rewrite taxonomy slug and permalinks front base
 
