@@ -26,6 +26,8 @@ global $wp_version,
 $wpuxss_eml_version = '2.0.4';
 
 
+
+
  
 register_activation_hook( __FILE__, 'wpuxss_eml_on_activation' );
 
@@ -36,7 +38,7 @@ if( is_admin() ) {
 
     include_once( 'core/options-pages.php' );
 }
-
+ 
 
 
 

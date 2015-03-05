@@ -90,7 +90,7 @@ Try to just re-save permalinks settings. Go to Settings >> Permalinks and push "
 
 = Why Media Popup of some theme/plugin does not show taxonomy filters? =
 
-**UPD:** Since EML 2.0.4 there is an option 'Force filters' (see Media Settings > Taxonomies) that allows to force media filters for ANY Media Popup regardless of what was intended by the author of a third-party plugin or theme. 
+**UPD:** Since EML 2.0.4 there is an option 'Force filters' (see Media Settings > Taxonomies) that allows forcing media filters for ANY Media Popup regardless of what was intended by the author of a third-party plugin or theme. 
 
 EML adds its filters to ANY media popup that already contains native WordPress filters. We chose NOT to force adding filters to ANY media popup because there are a lot of cases when filters are not acceptable and theme's/plugin's author did not add them intentionally.
 
@@ -128,7 +128,7 @@ Right now it is possible via WP_Query ([example of the code](http://wordpress.or
 
 
 = 2.0.4 =
-*Release Date - March 03, 2015*
+*Release Date - March 05, 2015*
 
 = New =
 * Filters by 'All Uncategorized', 'All Media Categories', 'Not in Media Category' added to both List and Grid views and to Media Popup
@@ -141,8 +141,9 @@ Right now it is possible via WP_Query ([example of the code](http://wordpress.or
 * Admin Menu: All Media Settings including native 'Settings > Media' are now under common 'Media Settings' admin menu
 * Bulk Edit options are now on 'Media Settings > Taxonomies' admin page
 * CSS: Media taxonomies column extended for Media Popup, and few more minor CSS improvements
+* Taxonomy Saving: Saving changes on the fly displays changes more correctly now (PRO only)
 * Taxonomy Saving: Improved media taxonomies saving mechanism (better compatibility with other plugins, etc.)
-* Numerous minor code improvements
+* Numerous minor code and performance improvements
 
 = Bugfixes =
 * Taxonomy Saving: Fixed a big issue with incorrect bulk saving for media taxonomies (wrong clean-up for non-heirarchical taxonomies, PRO only)

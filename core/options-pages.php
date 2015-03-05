@@ -426,7 +426,8 @@ if( ! function_exists('wpuxss_eml_print_taxonomies_options') ) {
                                             <td> 
                                                 <fieldset>
                                                     <legend class="screen-reader-text"><span><?php _e('Taxonomy archive pages','eml'); ?></span></legend>
-                                                    <label for="wpuxss_eml_tax_options[tax_archives]"><input name="wpuxss_eml_tax_options[tax_archives]" type="hidden" value="0" /><input name="wpuxss_eml_tax_options[tax_archives]" type="checkbox" value="1" <?php checked( true, $wpuxss_eml_tax_options['tax_archives'], true ); ?> /> <?php _e('Turn on taxonomy archive pages on the front-end','eml'); ?></label>
+                                                    <label for="wpuxss_eml_tax_options[tax_archives]"><input name="wpuxss_eml_tax_options[tax_archives]" type="hidden" value="0" /><input name="wpuxss_eml_tax_options[tax_archives]" type="checkbox" value="1" <?php checked( true, $wpuxss_eml_tax_options['tax_archives'], true ); ?> /> <?php _e('Turn on media taxonomy archive pages on the front-end','eml'); ?></label>
+                                                    <p class="description"><?php _e( 'Re-save your permalink settings after this option change to make it work.', 'eml' ); ?></p>
                                                 </fieldset>
                                             </td>
                                         </tr>
@@ -447,7 +448,7 @@ if( ! function_exists('wpuxss_eml_print_taxonomies_options') ) {
                                                 <fieldset>
                                                     <legend class="screen-reader-text"><span><?php _e('Force filters','eml'); ?></span></legend>
                                                     <label for="wpuxss_eml_tax_options[force_filters]"><input name="wpuxss_eml_tax_options[force_filters]" type="hidden" value="0" /><input name="wpuxss_eml_tax_options[force_filters]" type="checkbox" value="1" <?php checked( true, $wpuxss_eml_tax_options['force_filters'], true ); ?> /> <?php _e('Show media filters for ANY Media Popup.','eml'); ?></label>
-                                                    <p class="description"><?php _e( 'May be useful for those who need to force filters for third-party plugins or themes.', 'eml' ); ?></p>
+                                                    <p class="description"><?php _e( 'May be useful for those who need forcing filters for third-party plugins or themes.', 'eml' ); ?></p>
                                                 </fieldset>
                                             </td>
                                         </tr>

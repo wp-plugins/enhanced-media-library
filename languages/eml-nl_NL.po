@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Enhanced Media Library v1.0.4\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/enhanced-media-library\n"
 "POT-Creation-Date: 2015-03-04 00:13+0200\n"
-"PO-Revision-Date: 2015-03-04 00:46+0200\n"
+"PO-Revision-Date: 2015-03-05 04:58+0200\n"
 "Last-Translator: WordPress UX Solutions <wordpressuxsolutions@gmail.com>\n"
 "Language-Team: De B.A.A.T. <de_baat@de-baat.nl>\n"
 "Language: nl_NL\n"
@@ -298,7 +298,7 @@ msgstr "Taxonomies"
 
 # @ eml
 #: core/options-pages.php:94 core/options-pages.php:95
-#: core/options-pages.php:509
+#: core/options-pages.php:510
 msgid "MIME Types"
 msgstr "MIME Types"
 
@@ -414,7 +414,7 @@ msgid "Duplicate extensions or MIME types. Please chose other one."
 msgstr "Dubbele extensies of MIME types. Kies aub een andere."
 
 # @ eml
-#: core/options-pages.php:180 core/options-pages.php:500
+#: core/options-pages.php:180 core/options-pages.php:501
 #: pro/core/options-pages.php:170
 msgid "You do not have sufficient permissions to access this page."
 msgstr "U hebt onvoldoende toegangsrechten voor deze pagina."
@@ -530,76 +530,81 @@ msgid "Taxonomy archive pages"
 msgstr ""
 
 #: core/options-pages.php:429
-msgid "Turn on taxonomy archive pages on the front-end"
+msgid "Turn on media taxonomy archive pages on the front-end"
 msgstr ""
 
-#: core/options-pages.php:435
+#: core/options-pages.php:430
+msgid ""
+"Re-save your permalink settings after this option change to make it work."
+msgstr ""
+
+#: core/options-pages.php:436
 msgid "Assign all like hierarchical"
 msgstr ""
 
-#: core/options-pages.php:438 core/options-pages.php:439
+#: core/options-pages.php:439 core/options-pages.php:440
 msgid ""
 "Show non-hierarchical taxonomies like hierarchical in Grid View / Media Popup"
 msgstr ""
 
-#: core/options-pages.php:445 core/options-pages.php:448
+#: core/options-pages.php:446 core/options-pages.php:449
 msgid "Force filters"
 msgstr ""
 
-#: core/options-pages.php:449
+#: core/options-pages.php:450
 msgid "Show media filters for ANY Media Popup."
 msgstr ""
 
-#: core/options-pages.php:450
+#: core/options-pages.php:451
 msgid ""
-"May be useful for those who need to force filters for third-party plugins or "
+"May be useful for those who need forcing filters for third-party plugins or "
 "themes."
 msgstr ""
 
 # @ eml
-#: core/options-pages.php:510
+#: core/options-pages.php:511
 msgid "Add New MIME Type"
 msgstr "Voeg Nieuw MIME Type Toe"
 
 # @ eml
-#: core/options-pages.php:528 core/options-pages.php:581
+#: core/options-pages.php:529 core/options-pages.php:582
 msgid "Extension"
 msgstr "Extensie"
 
 # @ eml
-#: core/options-pages.php:529 core/options-pages.php:582
+#: core/options-pages.php:530 core/options-pages.php:583
 msgid "MIME Type"
 msgstr "MIME Type"
 
 # @ eml
-#: core/options-pages.php:530 core/options-pages.php:583
+#: core/options-pages.php:531 core/options-pages.php:584
 msgid "Singular Label"
 msgstr "Enkelvoud Label"
 
 # @ eml
-#: core/options-pages.php:531 core/options-pages.php:584
+#: core/options-pages.php:532 core/options-pages.php:585
 msgid "Plural Label"
 msgstr "Meervoud Label"
 
 # @ eml
-#: core/options-pages.php:532 core/options-pages.php:560
-#: core/options-pages.php:573 core/options-pages.php:585
+#: core/options-pages.php:533 core/options-pages.php:561
+#: core/options-pages.php:574 core/options-pages.php:586
 msgid "Add Filter"
 msgstr "Voeg Filter Toe"
 
 # @ eml
-#: core/options-pages.php:533 core/options-pages.php:561
-#: core/options-pages.php:574 core/options-pages.php:586
+#: core/options-pages.php:534 core/options-pages.php:562
+#: core/options-pages.php:575 core/options-pages.php:587
 msgid "Allow Upload"
 msgstr "Sta Upload Toe"
 
 # @ eml
-#: core/options-pages.php:575
+#: core/options-pages.php:576
 msgid "Delete MIME Type"
 msgstr "Verwijder MIME Type"
 
 # @ eml
-#: core/options-pages.php:592
+#: core/options-pages.php:593
 msgid "Restore default MIME Types"
 msgstr "Herstel default MIME Types"
 
