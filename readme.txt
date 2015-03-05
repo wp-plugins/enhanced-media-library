@@ -1,9 +1,9 @@
 === Enhanced Media Library ===
 Contributors: webbistro
 Tags: media library, taxonomy, taxonomies, mime, mime type, attachment, media category, media categories, media tag, media tags, media taxonomy, media taxonomies, media filter, media organizer, file types, media types, media uploader, custom, media management, attachment management, files management, ux, user experience, wp-admin, admin, categories, category, filter,  image, images, media, upload
-Requires at least: 3.5
-Tested up to: 4.1
-Stable tag: 2.0.3
+Requires at least: 4.0
+Tested up to: 4.1.1
+Stable tag: 2.0.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -40,7 +40,7 @@ This plugin will be handy for those who need to manage a lot of media files.
 
 > * The free version of Enhanced Media Library does NOT support bulk features.
 > * The PRO version requires at least WordPress 4.0
-> * [Learn more &raquo;](http://wordpressuxsolutions.com/plugins/enhanced-media-library/)
+> * [Learn more &raquo;](http://wpuxsolutions.com/plugins/enhanced-media-library/)
 
 = Bulk Attachment for Media Taxonomies (PRO only) =
 
@@ -51,13 +51,20 @@ This plugin will be handy for those who need to manage a lot of media files.
     
 = Bulk selection/deletion of media files (PRO only) =
 
-* select/deselect all media files (within a category) with a single click
-* delete all media files (within a category) right in media popup window
+* Select/deselect all media files (within a category) with a single click
+* Delete all media files (within a category) right in media popup window
+
+= Compatiblity with Other Plugins =
+
+* Advanced Custom Fields / Advanced Custom Fields PRO
+* WooCommerce
+
+Please let us know if you find any issue with the plugins from the list above or others.
 
 
 = Useful Links =
 
-* [Where to start? (The complete beginners guide)](http://wordpressuxsolutions.com/documents/enhanced-media-library/eml-where-to-start/)
+* [Where to start? (The complete beginners guide)](http://wpuxsolutions.com/documents/enhanced-media-library/eml-where-to-start/)
 
 
 
@@ -81,7 +88,9 @@ This plugin will be handy for those who need to manage a lot of media files.
 
 Try to just re-save permalinks settings. Go to Settings >> Permalinks and push "Save Changes" button.
 
-= Why Media Popup of some themes/plugins does not show taxonomy filters? =
+= Why Media Popup of some theme/plugin does not show taxonomy filters? =
+
+**UPD:** Since EML 2.0.4 there is an option 'Force filters' (see Media Settings > Taxonomies) that allows forcing media filters for ANY Media Popup regardless of what was intended by the author of a third-party plugin or theme. 
 
 EML adds its filters to ANY media popup that already contains native WordPress filters. We chose NOT to force adding filters to ANY media popup because there are a lot of cases when filters are not acceptable and theme's/plugin's author did not add them intentionally.
 
@@ -118,7 +127,37 @@ Right now it is possible via WP_Query ([example of the code](http://wordpress.or
 == Changelog ==
 
 
+= 2.0.4 =
+*Release Date - March 05, 2015*
+
+= New =
+* Filters by 'All Uncategorized', 'All Media Categories', 'Not in Media Category' added to both List and Grid views and to Media Popup
+* New Media Taxonomy option: 'Edit in Media Popup' - Allows to show/hide taxonomy checkboxes in Media Popup per taxonomy
+* New Media Taxonomy option: 'Taxonomy archive pages' - Turn on/off taxonomy archive pages on the front-end
+* New Media Taxonomy option: 'Assign all like hierarchical' - Allows editing of non-hierarchical taxonomies like hierarchical (checkbox list) in Grid View / Media Popup
+* New Media Taxonomy option: 'Force filters' - Shows media filters for ANY Media Popup. May be useful for those who need to force filters for third-party plugins or themes.
+
+= Improvements =
+* Admin Menu: All Media Settings including native 'Settings > Media' are now under common 'Media Settings' admin menu
+* Bulk Edit options are now on 'Media Settings > Taxonomies' admin page
+* CSS: Media taxonomies column extended for Media Popup, and few more minor CSS improvements
+* Taxonomy Saving: Saving changes on the fly displays changes more correctly now (PRO only)
+* Taxonomy Saving: Improved media taxonomies saving mechanism (better compatibility with other plugins, etc.)
+* Numerous minor code and performance improvements
+
+= Bugfixes =
+* Taxonomy Saving: Fixed a big issue with incorrect bulk saving for media taxonomies (wrong clean-up for non-heirarchical taxonomies, PRO only)
+* Taxonomy slug: Bug with the incorrect saving of a taxonomy slug fixed [Support Request](https://wordpress.org/support/topic/not-work-slug)
+* Meta Slider plugin compatibility ensured [Support Request](https://wordpress.org/support/topic/filter-not-appearing-when-adding-slides-to-meta-slider)
+* Localization: small localization bug fixed (PRO only)
+* CSS: Admin notices layout fixed for the Grid View (PRO only)
+* CSS: Incorrect checkbox styling for mobile devices fixed
+* CSS: Few more minor CSS fixes
+
+
+&nbsp;
 = 2.0.3 =
+*Release Date - December 19, 2014*
 
 = Improvements (PRO only) =
 * Bulk Edit added to the List View of Media Library
@@ -135,13 +174,15 @@ Right now it is possible via WP_Query ([example of the code](http://wordpress.or
 
 &nbsp;
 = 2.0.2.3 (PRO only) =
+*Release Date - November 27, 2014*
 
 = Bugfixes =
-* Fixed the bug with ACF < 5.0 compatibility
+* ACF: Fixed the bug with ACF < 5.0 compatibility
 
 
 &nbsp;
 = 2.0.2.2 =
+*Release Date - November 23, 2014*
 
 = Bugfixes =
 * Minor JS bug of v2.0 fixed [Support Request](https://wordpress.org/support/topic/upload-hangs-2)
@@ -149,6 +190,7 @@ Right now it is possible via WP_Query ([example of the code](http://wordpress.or
 
 &nbsp;
 = 2.0.2.1 =
+*Release Date - November 20, 2014*
 
 = Bugfixes =
 * Minor JS bug of v2.0.2 fixed
@@ -156,6 +198,7 @@ Right now it is possible via WP_Query ([example of the code](http://wordpress.or
 
 &nbsp;
 = 2.0.2 =
+*Release Date - November 19, 2014*
 
 = Improvements =
 * Taxonomy Settings: you can now rewrite taxonomy slug and permalinks front base
@@ -166,6 +209,7 @@ Right now it is possible via WP_Query ([example of the code](http://wordpress.or
 
 &nbsp;
 = 2.0.1 =
+*Release Date - November 16, 2014*
 
 = Bugfixes =
 * Front-end: scripts conflict fixed, update if EML breaks your front-end features
@@ -174,15 +218,16 @@ Right now it is possible via WP_Query ([example of the code](http://wordpress.or
 
 &nbsp;
 = 2.0 =
+*Release Date - November 15, 2014*
 
 = New =
-* [PRO vesrion](http://wordpressuxsolutions.com/plugins/enhanced-media-library/) with long-awaited bulk edit feature is finally released!
+* [PRO vesrion](http://wpuxsolutions.com/plugins/enhanced-media-library/) with long-awaited bulk edit feature is finally released!
 
 = Improvements =
 * Media Popup: Filters reset automatically as soon as new media files upload process started
 * Media Popup: Selection resets automatically as soon as filter is changed
 * Media Popup: WordPress 4.0 date filter added  
-* Compatibility: general compatibility with other plugins improved, please [let me know](http://wordpressuxsolutions.com/support/create-new-ticket/) if you have any issue with EML and other plugins
+* Compatibility: general compatibility with other plugins improved, please [let me know](http://wpuxsolutions.com/support/create-new-ticket/) if you have any issue with EML and other plugins
 
 = Bugfixes =
 * Media Popup: No delay or glitches anymore when checking media taxonomy checkboxes [Support Request](https://wordpress.org/support/topic/any-way-to-bulk-edit-images/page/2#post-6051963)
