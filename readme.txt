@@ -3,7 +3,7 @@ Contributors: webbistro
 Tags: media library, taxonomy, taxonomies, mime, mime type, attachment, media category, media categories, media tag, media tags, media taxonomy, media taxonomies, media filter, media organizer, file types, media types, media uploader, custom, media management, attachment management, files management, ux, user experience, wp-admin, admin, categories, category, filter,  image, images, media, upload
 Requires at least: 4.0
 Tested up to: 4.1.1
-Stable tag: 2.0.4
+Stable tag: 2.0.4.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -58,6 +58,7 @@ This plugin will be handy for those who need to manage a lot of media files.
 
 * Advanced Custom Fields / Advanced Custom Fields PRO
 * WooCommerce
+* Meta Slider
 
 Please let us know if you find any issue with the plugins from the list above or others.
 
@@ -90,7 +91,7 @@ Try to just re-save permalinks settings. Go to Settings >> Permalinks and push "
 
 = Why Media Popup of some theme/plugin does not show taxonomy filters? =
 
-**UPD:** Since EML 2.0.4 there is an option 'Force filters' (see Media Settings > Taxonomies) that allows forcing media filters for ANY Media Popup regardless of what was intended by the author of a third-party plugin or theme. 
+[**UPD:** Since EML 2.0.4 there is an option 'Force filters' (see Media Settings > Taxonomies) that allows forcing media filters for ANY Media Popup regardless of what was intended by the author of a third-party plugin or theme.]
 
 EML adds its filters to ANY media popup that already contains native WordPress filters. We chose NOT to force adding filters to ANY media popup because there are a lot of cases when filters are not acceptable and theme's/plugin's author did not add them intentionally.
 
@@ -126,16 +127,24 @@ Right now it is possible via WP_Query ([example of the code](http://wordpress.or
 
 == Changelog ==
 
+= 2.0.4.1 =
+*Release Date - March 07, 2015*
 
+= Bugfixes =
+* Plugin's options incorrect setting during update fixed. If your front-end media taxonomy archive pages were broken by the recent two updates, please re-save your Settings > Permalinks options
+* The bug with "Fatal error: Call to undefined function ..." for Media Library List View fixed
+
+
+&nbsp;
 = 2.0.4 =
 *Release Date - March 05, 2015*
 
 = New =
 * Filters by 'All Uncategorized', 'All Media Categories', 'Not in Media Category' added to both List and Grid views and to Media Popup
-* New Media Taxonomy option: 'Edit in Media Popup' - Allows to show/hide taxonomy checkboxes in Media Popup per taxonomy
+* New Media Taxonomy option: 'Edit in Media Popup' - Allows to show/hide taxonomy checkboxes in Media Popup per taxonomy.
 * New Media Taxonomy option: 'Taxonomy archive pages' - Turn on/off taxonomy archive pages on the front-end
 * New Media Taxonomy option: 'Assign all like hierarchical' - Allows editing of non-hierarchical taxonomies like hierarchical (checkbox list) in Grid View / Media Popup
-* New Media Taxonomy option: 'Force filters' - Shows media filters for ANY Media Popup. May be useful for those who need to force filters for third-party plugins or themes.
+* New Media Taxonomy option: 'Force filters' - Shows media filters for ANY Media Popup. May be useful for those who need to force filters for third-party plugins or themes
 
 = Improvements =
 * Admin Menu: All Media Settings including native 'Settings > Media' are now under common 'Media Settings' admin menu
