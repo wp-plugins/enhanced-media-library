@@ -3,7 +3,7 @@ Contributors: webbistro
 Tags: media library, taxonomy, taxonomies, mime, mime type, attachment, media category, media categories, media tag, media tags, media taxonomy, media taxonomies, media filter, media organizer, file types, media types, media uploader, custom, media management, attachment management, files management, ux, user experience, wp-admin, admin, categories, category, filter,  image, images, media, upload
 Requires at least: 4.0
 Tested up to: 4.1.1
-Stable tag: 2.0.4.2
+Stable tag: 2.0.4.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -127,6 +127,17 @@ Right now it is possible via WP_Query ([example of the code](http://wordpress.or
 
 == Changelog ==
 
+= 2.0.4.3 =
+*Release Date - March 21, 2015*
+
+= Bugfixes =
+* Media > Add New: Incorrect media files selection (multiple uploading) fixed
+* List View: Incorrect filtration for post tags fixed (PRO only)
+* Edit details for all media file types fixed (PRO only) [Support Request](https://wordpress.org/support/topic/edit-video-detail-missing)
+* Other minor bug fixes
+
+
+&nbsp;
 = 2.0.4.2 =
 *Release Date - March 09, 2015*
 
