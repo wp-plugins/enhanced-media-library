@@ -131,8 +131,8 @@ Right now it is possible via WP_Query ([example of the code](http://wordpress.or
 *Release Date - March 21, 2015*
 
 = Bugfixes =
-* Media > Add New: Incorrect media files selection (multiple uploading) fixed
-* List View: Incorrect filtration for post tags fixed (PRO only)
+* List View: Incorrect filtration for post tags fixed
+* Media > Add New: Incorrect media files selection (multiple uploading) fixed (PRO only)
 * Edit details for all media file types fixed (PRO only) [Support Request](https://wordpress.org/support/topic/edit-video-detail-missing)
 * Other minor bug fixes
 
