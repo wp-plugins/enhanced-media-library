@@ -3,7 +3,7 @@ Contributors: webbistro
 Tags: media library, taxonomy, taxonomies, mime, mime type, attachment, media category, media categories, media tag, media tags, media taxonomy, media taxonomies, media filter, media organizer, file types, media types, media uploader, custom, media management, attachment management, files management, ux, user experience, wp-admin, admin, categories, category, filter,  image, images, media, upload
 Requires at least: 4.0
 Tested up to: 4.1.1
-Stable tag: 2.0.4.3
+Stable tag: 2.0.4.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -17,6 +17,7 @@ A better management for WordPress Media Library
 
 This plugin will be handy for those who need to manage a lot of media files.
 
+
 = Media Taxonomies (Categories for Media Files) =
 
 * create unlimited amount of media taxonomies (like categories and tags),
@@ -28,6 +29,7 @@ This plugin will be handy for those who need to manage a lot of media files.
 * filter media files in Media Library / Media Popup by your custom categories,
 * get you media category archive page (front-end) working with EML activated
 
+
 = MIME Types (Media File Types) =
 
 * create new MIME types (media file types, for example, PDFs, Documents, V-Cards, etc),
@@ -35,6 +37,17 @@ This plugin will be handy for those who need to manage a lot of media files.
 * allow/disallow uploading for any file type,
 * filter media files by file types in Media Library / Media Popup,
 * be in total control of the names of your file type filters
+
+
+= Compatiblity with Other Plugins =
+
+* Advanced Custom Fields / Advanced Custom Fields PRO
+* WooCommerce
+* Meta Slider
+* Search & Filter
+
+Please let us know if you find any issue with the plugins from the list above or others.
+
 
 > #### Enhanced Media Library PRO
 
@@ -53,14 +66,6 @@ This plugin will be handy for those who need to manage a lot of media files.
 
 * Select/deselect all media files (within a category) with a single click
 * Delete all media files (within a category) right in media popup window
-
-= Compatiblity with Other Plugins =
-
-* Advanced Custom Fields / Advanced Custom Fields PRO
-* WooCommerce
-* Meta Slider
-
-Please let us know if you find any issue with the plugins from the list above or others.
 
 
 = Useful Links =
@@ -127,6 +132,17 @@ Right now it is possible via WP_Query ([example of the code](http://wordpress.or
 
 == Changelog ==
 
+= 2.0.4.5 =
+*Release Date - April 24, 2015*
+
+= Compatibility =
+* Wordpress 4.2 compatibility ensured
+
+= Bugfixes =
+* Blank (empty) media library screen fixed for List and Grid views
+
+
+&nbsp;
 = 2.0.4.3 =
 *Release Date - March 21, 2015*
 
