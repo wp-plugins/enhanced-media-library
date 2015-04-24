@@ -2,7 +2,7 @@
 Contributors: webbistro
 Tags: media library, taxonomy, taxonomies, mime, mime type, attachment, media category, media categories, media tag, media tags, media taxonomy, media taxonomies, media filter, media organizer, file types, media types, media uploader, custom, media management, attachment management, files management, ux, user experience, wp-admin, admin, categories, category, filter,  image, images, media, upload
 Requires at least: 4.0
-Tested up to: 4.1.1
+Tested up to: 4.2
 Stable tag: 2.0.4.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
