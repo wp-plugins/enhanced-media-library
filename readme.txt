@@ -74,8 +74,6 @@ Please let us know if you find any issue with the plugins from the list above or
 
 
 
-
-
 == Installation ==
 
 1. Upload plugin folder to '/wp-content/plugins/' directory
