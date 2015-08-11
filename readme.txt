@@ -2,8 +2,8 @@
 Contributors: webbistro
 Tags: media library, taxonomy, taxonomies, mime, mime type, attachment, media category, media categories, media tag, media tags, media taxonomy, media taxonomies, media filter, media organizer, file types, media types, media uploader, custom, media management, attachment management, files management, ux, user experience, wp-admin, admin, categories, category, filter,  image, images, media, upload
 Requires at least: 4.0
-Tested up to: 4.2.1
-Stable tag: 2.0.4.6
+Tested up to: 4.3
+Stable tag: 2.0.4.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -39,6 +39,15 @@ This plugin will be handy for those who need to manage a lot of media files.
 * be in total control of the names of your file type filters
 
 
+= Available Languages =
+
+* Dutch
+* German
+* Hebrew
+* Polish
+* Swedish
+
+
 = Compatiblity with Other Plugins =
 
 * Advanced Custom Fields / Advanced Custom Fields PRO
@@ -71,6 +80,8 @@ Please let us know if you find any issue with the plugins from the list above or
 = Useful Links =
 
 * [Where to start? (The complete beginners guide)](http://wpuxsolutions.com/documents/enhanced-media-library/eml-where-to-start/)
+
+
 
 
 
@@ -130,6 +141,29 @@ Right now it is possible via WP_Query ([example of the code](http://wordpress.or
 
 == Changelog ==
 
+= 2.0.4.7 =
+*Release Date - August 11, 2015*
+
+= Bugfixes =
+* Detach issue fixed [Support Request](https://wordpress.org/support/topic/cannot-detach-image-from-custom-post-type)
+* The bug of load-upload.php hook fixed, please use any priority less than 999 for this hook
+* Visual Composer incompatibility fixed (PRO only)
+
+= Improvements =
+* Better CSS for the Media Library grid mode (PRO only)
+* Better localization [Support Request](https://wordpress.org/support/topic/the-plugin-codestyling-localization-was-forced-to-protect-its-own-page)
+
+= Compatibility =
+* Wordpress 4.3 compatibility ensured
+* Visual Composer incompatibility fixed (PRO only)
+
+= Languages =
+* Hebrew translation added
+* German translation added
+* Swedish translation added
+
+
+&nbsp;
 = 2.0.4.6 =
 *Release Date - April 29, 2015*
 
